@@ -26,15 +26,25 @@
   height: 60vmin;
   width: 60vmin;;
   display: grid;
+
+}
+
+.images{
+  max-width: 40%;
+  height: auto;
 }
 
 .profilePicture{
   border-radius: 50%;
+  max-width: 40%;
+  height: auto;
 }
 
 .header{
   background-color: rgb(255, 255, 255);
   justify-content: left;
+  border-style: solid;
+  border-color: black;
 }
 
 .text{
@@ -45,6 +55,8 @@
 
 .photos{
   text-align: center;
+  border-style: solid;
+  border-color: black;
   
 }
 
