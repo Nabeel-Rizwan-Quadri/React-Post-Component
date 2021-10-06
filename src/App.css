@@ -23,14 +23,14 @@
   font-size: calc(10px + 2vmin);
   background-color: rgb(255, 255, 255);
   color: black;
-  height: 60vmin;
-  width: 60vmin;;
+  height: 80vmin;
+  width: 70vmin;;
   display: grid;
 
 }
 
 .images{
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
 
