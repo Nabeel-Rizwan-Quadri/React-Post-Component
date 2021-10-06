@@ -1,14 +1,15 @@
-import Quiz from "./screens/quiz.js"
-import './App.css'
+import React from "react";
+import CustomPost from './component/Post';
+import Home from "./component/Post";
+import './styles.css'
+
 
 function App() {
 
   return (
-    <div className="App">
-      <header className="App-header">
-      <Quiz/>
-      </header>
-    </div>
+    
+      <Home/>
+      
   );
 }
 
