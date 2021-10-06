@@ -1,16 +1,18 @@
 import React from "react";
 import CustomPost from './component/Post';
-import Home from "./component/Post";
-import './styles.css'
+import './App.css'
 
 
 function App() {
 
   return (
-    
-      <Home/>
+    <div className="App">
       
+     <CustomPost/>
+      
+    </div>
   );
+  
 }
 
 export default App;

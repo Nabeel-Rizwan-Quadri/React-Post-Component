@@ -1,0 +1,57 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.App-headers {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card{
+  font-size: calc(10px + 2vmin);
+  background-color: rgb(255, 255, 255);
+  color: black;
+  height: 60vmin;
+  width: 60vmin;;
+  display: grid;
+}
+
+.profilePicture{
+  border-radius: 50%;
+}
+
+.header{
+  background-color: rgb(255, 255, 255);
+  justify-content: left;
+}
+
+.text{
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+
+.photos{
+  text-align: center;
+  
+}
+
+.footer{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+
+  border-style: solid;
+  border-color: black;
+}
