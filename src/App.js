@@ -10,7 +10,6 @@ import e from "./e.jpg"
 import f from "./f.jpg"
 import g from "./g.jpg"
 
-
 function App() {
 
   const info = {
@@ -23,7 +22,9 @@ function App() {
   
   return (
     <div className="body">
-     <CustomPost info={info}/>
+      <p>
+        <CustomPost info={info}/>
+      </p>
     </div>
   );
 }

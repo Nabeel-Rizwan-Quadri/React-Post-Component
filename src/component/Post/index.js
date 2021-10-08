@@ -32,10 +32,10 @@ const CustomPost = ({info}) => {
         <FbImageLibrary images={[info.image[0], info.image[1], info.image[2], info.image[3], info.image[4], info.image[5], info.image[6]]}/>
       </div>
       
-      <div className="footers">
-        <button onClick={butn}>Like</button>
-        <button onClick={butn}>comment</button>
-        <button onClick={butn}>share</button>
+      <div className="footer" style={{justifyContent: "space-between"}}>
+        <button onClick={butn}><i class="fa fa-thumbs-up"></i> Like </button>
+        <button onClick={butn}><i class="fas fa-comment"></i> comment</button>
+        <button onClick={butn}><i class="fa fa-share-nodes"></i> share</button>
       </div>
 
     </div>
