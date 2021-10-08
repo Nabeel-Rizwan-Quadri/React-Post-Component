@@ -1,3 +1,5 @@
+import FbImageLibrary from 'react-fb-image-grid'
+
 const CustomPost = ({info}) => {
 
   const butn = () => {
@@ -8,13 +10,17 @@ const CustomPost = ({info}) => {
     <div className="card">
 
       <div className="header">
+          <img className="profilePicture" src={info.avatars} alt="avatar"/>
 
-        <img className="profilePicture" src={info.avatars} alt="avatar"/>
-        
-        {info.createdBy}
-        <br></br>
+        <div className="pad">
+          <h3>
+            {info.createdBy}
+          </h3>
+          <p>
+          created on:
+          </p>
+        </div>
 
-        created on: {info.createdAt}
       </div>
 
       <div className="text">
@@ -23,19 +29,10 @@ const CustomPost = ({info}) => {
 
       <div className="photos">
         {/* calling grid image component here */}
-        {<img className="images" src={info.image[0]} alt="avatar"/>}
-        {<img className="images" src={info.image[1]} alt="avatar"/>}
-        {<img className="images" src={info.image[2]} alt="avatar"/>}
-        {<img className="images" src={info.image[3]} alt="avatar"/>}
-   
-        {/* {
-          info.image.map((item, index) =>  {
-            return <img className="images" src={item[index]} alt="avatar"/>
-          })
-        } */}
+        <FbImageLibrary images={[info.image[0], info.image[1], info.image[2], info.image[3], info.image[4], info.image[5], info.image[6]]}/>
       </div>
       
-      <div className="footer">
+      <div className="footers">
         <button onClick={butn}>Like</button>
         <button onClick={butn}>comment</button>
         <button onClick={butn}>share</button>
