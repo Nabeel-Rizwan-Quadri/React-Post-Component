@@ -4,8 +4,7 @@
   flex-direction: column9;
   justify-content: center;
   align-items: center;
-  height: 753.5px;
-  
+  min-height: 100vh;
 }
 
 .card{
@@ -62,13 +61,12 @@ h3{
 }
 
 button {
-  margin: 10px 10px;
-  width: 100px;
+  width: 130px;
   height: 30px;
   border-radius: 5px;
-  background-color: rgb(19, 20, 25);
-  color: white;
-  border-style: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
   cursor: pointer;
   box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
   3px 3px 5px rgba(0, 0, 0, 0.5);
