@@ -1,10 +1,11 @@
 .body {
   background-color:grey;
   display: flex;
-  flex-direction: column9;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  min-width: 100vh;
 }
 
 .card{
@@ -14,6 +15,10 @@
   padding: 10px 10px;
   flex-direction: column;
   border-radius: 2%;
+  max-width: auto;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  max-width: 50vh;
 }
 
 *{
