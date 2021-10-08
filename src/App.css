@@ -1,6 +1,7 @@
 .body {
   background-color:grey;
   display: flex;
+  flex-direction: column9;
   justify-content: center;
   align-items: center;
   height: 753.5px;

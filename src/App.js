@@ -25,6 +25,7 @@ function App() {
       <p>
         <CustomPost info={info}/>
       </p>
+      
     </div>
   );
 }
