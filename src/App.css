@@ -7,26 +7,25 @@
 .card{
   background-color: whitesmoke;
   color: black;
-  border-style: solid;
-  border-color: green;
   max-width: 800px;
 }
+
 
 .pad{
   padding-left: 2%;
 }
 
 .profilePicture{
+  padding-top: 15px;
   border-radius: 50%;
   text-align: left;
   max-width: 80px;
+  height: 80px;
 }
 
 .header {
   display: flex;
-  border-style: solid;
-  border-color: black;
-  max-width: 800px;
+  max-width: auto;
 }
 
 h3{
@@ -36,22 +35,18 @@ h3{
 .text{
   padding-top: 10px;
   text-align: left;
-  border-style: solid;
-  border-color: black;
-  max-width: 800px;
+  max-width: auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .photos{
-  border-style: solid;
-  border-color: black;
-  max-width: 800px;
+  max-width: auto;
 }
 
 .footers{
   text-align: center;
-  border-style: solid;
-  border-color: black;
-  max-width: 800px;
+  max-width: auto;
 }
 
 button {

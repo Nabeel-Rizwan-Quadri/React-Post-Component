@@ -19,7 +19,6 @@ function App() {
     description: "These would be excellent wallpaper images.",
     image: [a, b, c, d, e, f, g],
     createdAt: Date(),
-    // createdAt: Date.toDateString().toLocaleString(),
     }
   
   return (

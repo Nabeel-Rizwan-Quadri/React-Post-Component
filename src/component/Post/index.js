@@ -17,7 +17,7 @@ const CustomPost = ({info}) => {
             {info.createdBy}
           </h3>
           <p>
-          created on:
+          Created on: {info.createdAt}
           </p>
         </div>
 
