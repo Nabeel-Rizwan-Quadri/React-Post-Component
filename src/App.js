@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import CustomPost from './component/Post';
 import './App.css'
 import avatar from "./ava.jpg"
@@ -11,6 +11,8 @@ import f from "./f.jpg"
 import g from "./g.jpg"
 
 function App() {
+
+  
 
   const info = {
     createdBy: 'Nabeel Rizwan',
